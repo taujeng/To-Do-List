@@ -1,0 +1,69 @@
+body{
+    background-color: #6785ab;
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+}
+
+
+
+    /* Header */
+.header {
+  padding: 40px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.header p{
+    font-style: italic;
+}
+
+    /* Create Note Input Form */
+.create-note{
+    text-align: center;
+    position: relative;
+    width: 480px;
+    margin: 10px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+    /* Footer */
+footer p{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
