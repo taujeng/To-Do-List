@@ -3,7 +3,7 @@ import Fab from '@mui/material/Fab';
 import AddIcon from '@mui/icons-material/Add';
 import Zoom from '@mui/material/Zoom';
 
-function CreateNote(){
+function CreateNote(props){
 
     const [note, setNote] = useState("");
     const [wasClick, setWasClick] = useState("false");
@@ -17,8 +17,11 @@ function CreateNote(){
         setWasClick(true);
     }
 
-    function submitNote(){
-        return
+    function submitNote(event){
+        props.onAdd(note);
+        // default behavior of forms is to refresh on submission.
+        event.preventDefault();
+        setNote("");
     }
 
 
@@ -32,7 +35,7 @@ function CreateNote(){
           name="content"
           onChange={handleChange}
           onClick={clickChange}
-          value={note.content}
+          value={note}
           placeholder="What should I do today..."
           rows="1"
         />

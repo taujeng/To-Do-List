@@ -59,6 +59,18 @@ form.create-note button {
   outline: none;
 }
 
+    /* Note */
+.note{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.note li{
+    position: relative;
+    font-size: 30px;
+}
+
+
     /* Footer */
 footer p{
   position: fixed;
