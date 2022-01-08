@@ -24,10 +24,6 @@ function CreateNote(props){
         setNote("");
     }
 
-
-
-
-
   return (
     <div>
       <form className="create-note">
