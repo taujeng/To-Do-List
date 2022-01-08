@@ -61,14 +61,23 @@ form.create-note button {
 
     /* Note */
 .note{
-    margin-top: 15px;
-    text-align: center;
+    margin-top: 1%;
+    margin-left: 35%;
+    text-align: left;
+    font-size: 30px;
 }
 
 .note li{
     position: relative;
     font-size: 30px;
+    display: inline;
 }
+
+.actualNote{
+    display: inline;
+}
+
+
 
 
     /* Footer */
